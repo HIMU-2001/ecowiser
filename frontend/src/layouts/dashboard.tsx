@@ -39,7 +39,7 @@ export const DashboardLayout = () => {
           <h2 className="text-white font-bold text-xl underline-offset-4 underline">
             <NavLink to="/dashboard">Foodie</NavLink>
           </h2>
-          <span className="text-orange-700 font-extrabold text-xl pl-2">.</span>
+          <span className="text-amber-700 font-extrabold text-xl pl-2">.</span>
         </div>
 
         <div className="text-white md:hidden">
@@ -60,7 +60,7 @@ export const DashboardLayout = () => {
               alt="A image"
             />
             <div>
-              <p className="text-orange-500 font-light">{user}</p>
+              <p className="text-amber-500 font-light">{user}</p>
             </div>
           </div>
           <div className="flex flex-col gap-y-1  mt-3">
@@ -70,8 +70,8 @@ export const DashboardLayout = () => {
                 to={to}
                 className={({ isActive }) =>
                   isActive && pathname === to
-                    ? "text-white font-thin text-sm bg-orange-500 p-4"
-                    : "text-white font-thin text-sm hover:bg-orange-500 p-4"
+                    ? "text-white font-thin text-sm bg-amber-500 p-4"
+                    : "text-white font-thin text-sm hover:bg-amber-500 p-4"
                 }
               >
                 {name}
@@ -80,7 +80,7 @@ export const DashboardLayout = () => {
             <Button
               title="Logout"
               handleClick={handleLogout}
-              className="text-white font-thin text-sm text-left hover:bg-orange-500 p-4"
+              className="text-white font-thin text-sm text-left hover:bg-amber-500 p-4"
             />
           </div>
         </div>
@@ -94,7 +94,7 @@ export const DashboardLayout = () => {
                 alt=""
               />
               <div>
-                <p className="text-orange-500 font-light">{user}</p>
+                <p className="text-amber-500 font-light">{user}</p>
               </div>
             </div>
             <div className="flex flex-col gap-y-1  mt-3">
@@ -105,8 +105,8 @@ export const DashboardLayout = () => {
                   onClick={handleOpen}
                   className={({ isActive }) =>
                     isActive && pathname === to
-                      ? "text-white font-thin text-sm bg-orange-500 p-4"
-                      : "text-white font-thin text-sm hover:bg-orange-500 p-4"
+                      ? "text-white font-thin text-sm bg-amber-500 p-4"
+                      : "text-white font-thin text-sm hover:bg-amber-500 p-4"
                   }
                 >
                   {name}
@@ -115,7 +115,7 @@ export const DashboardLayout = () => {
               <Button
                 title="Logout"
                 handleClick={handleLogout}
-                className="text-white font-thin text-sm text-left hover:bg-orange-500 p-4"
+                className="text-white font-thin text-sm text-left hover:bg-amber-500 p-4"
               />
             </div>
           </div>

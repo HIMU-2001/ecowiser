@@ -74,7 +74,7 @@ export const AddRecipe = () => {
 
   return (
     <div className="text-white">
-      <h2 className="font-extrabold text-xl">Add a recipe</h2>
+      <h2 className="font-extrabold text-xl">Add a Recipe</h2>
 
       <Form
         onSubmit={onSubmit}
@@ -84,7 +84,7 @@ export const AddRecipe = () => {
           <Input
             disabled={loading}
             name="title"
-            placeholder="Name of the recipe"
+            placeholder="Name of the Recipe"
             type="text"
             handleChange={onChange}
             className={`bg-zinc-900 py-1 px-4 w-full placeholder:text-sm hover:bg-zinc-800 cursor-pointer focus:outline-none`}
@@ -102,7 +102,7 @@ export const AddRecipe = () => {
           <TextArea
             disabled={loading}
             name="description"
-            placeholder="Recipe description and how to make it"
+            placeholder="Recipe Description and how to make it"
             onChange={onChange}
             rows={6}
             className={`bg-zinc-900 py-1 px-4 w-full placeholder:text-sm hover:bg-zinc-800 cursor-pointer focus:outline-none`}
@@ -127,7 +127,7 @@ export const AddRecipe = () => {
           <Button
             disabled={loading}
             title={loading ? "Publishing..." : "Publish Recipe"}
-            className={`bg-orange-500 text-white hover:bg-orange-600 py-1 px-6 w-full mb-4 `}
+            className={`bg-amber-500 text-white hover:bg-amber-600 py-1 px-6 w-full mb-4 `}
             type="submit"
           />
         </div>

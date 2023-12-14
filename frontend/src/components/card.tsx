@@ -30,7 +30,7 @@ export const RecipeCard = ({
         <Button
           title="View  More"
           handleClick={() => handleViewMore(_id)}
-          className={`bg-orange-500 text-white hover:bg-orange-600 
+          className={`bg-amber-500 text-white hover:bg-amber-600 
           py-1 px-2 w-[50%]
           `}
         />
@@ -95,17 +95,17 @@ export const Card = ({
             alt={"A picture of user"}
           />
           <div className="text-left">
-            <p className="text-orange-500 font-light">{email}</p>
+            <p className="text-amber-500 font-light">{email}</p>
           </div>
         </div>
         <h2
-          className={`text-orange-500 font-bold my-2 text-xl  ${
+          className={`text-amber-500 font-bold my-2 text-xl  ${
             !isFull && "truncate overflow-hidden ..."
           } `}
         >
           {title}
         </h2>
-        <p className="text-orange-500 font-light text-sm">
+        <p className="text-amber-500 font-light text-sm">
           ingredients:{" "}
           <span
             className={`text-white  ${
@@ -125,7 +125,7 @@ export const Card = ({
         </p>
 
         {note && (
-          <p className="text-orange-500 font-light text-sm py-1 md:py-4">
+          <p className="text-amber-500 font-light text-sm py-1 md:py-4">
             note: <span className="text-white">{note}</span>
           </p>
         )}
