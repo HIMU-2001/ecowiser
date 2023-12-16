@@ -1,4 +1,5 @@
-## Foodie
+## YumYard
+![Screenshot (1464)](https://github.com/HIMU-2001/ecowiser/assets/100105826/818c9150-5953-449e-96f0-0070f4a1efb4)
 
 > A food recipe web application for creating and getting recipes
 
@@ -14,7 +15,7 @@
 
 ## Live Demo ☁️
 
-[Live Demo Link]()
+[Live Demo Link](https://ecowiser.vercel.app)
 
 ## Getting Started ☀️
 
@@ -26,7 +27,7 @@ Install Node and npm using the `npm install` command on your command line, then 
 
 ### Setup
 
-Clone this repository by typing `git clone ` on your terminal.
+Clone this repository by typing `git clone https://github.com/HIMU-2001/ecowiser.git` on your terminal.
 
 ## Installation
 
