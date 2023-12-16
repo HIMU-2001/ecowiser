@@ -37,7 +37,7 @@ export const DashboardLayout = () => {
       <div className="h-[60px] md:h-[80px] bg-zinc-900 flex items-center justify-between px-3 sticky top-0 z-50">
         <div className="flex items-center">
           <h2 className="text-white font-bold text-xl underline-offset-4 underline">
-            <NavLink to="/dashboard">Foodie</NavLink>
+            <NavLink to="/dashboard">YumYard</NavLink>
           </h2>
           <span className="text-amber-700 font-extrabold text-xl pl-2">.</span>
         </div>

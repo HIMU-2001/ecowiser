@@ -106,7 +106,7 @@ export const Card = ({
           {title}
         </h2>
         <p className="text-amber-500 font-light text-sm">
-          ingredients:{" "}
+          <b>Ingredients:</b>{" "}
           <span
             className={`text-white  ${
               !isFull && "truncate overflow-hidden ..."
@@ -126,7 +126,7 @@ export const Card = ({
 
         {note && (
           <p className="text-amber-500 font-light text-sm py-1 md:py-4">
-            note: <span className="text-white">{note}</span>
+            <b>Note:</b> <span className="text-white">{note}</span>
           </p>
         )}
         {children}

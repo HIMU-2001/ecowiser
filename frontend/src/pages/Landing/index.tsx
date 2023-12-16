@@ -51,7 +51,7 @@ export const Landing = () => {
       >
         <div className="flex flex-col gap-2  w-full md:w-[50%]">
           <h2 className="text-amber-500 font-extrabold text-xl underline underline-offset-4 ">
-            Foodie
+            YumYard
           </h2>
 
           <Input
